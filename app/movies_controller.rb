@@ -54,11 +54,7 @@ def can_find_by_multiple_attributes(args = {title: 'Title', release_date: 2000, 
   
   Movie.find_by(args)
   
-  # Search Values:
-  # title == "Title"
-  # release_date == 2000
-  # director == "Me"
-  
+
 end
 
 def can_find_using_where_clause_and_be_sorted
