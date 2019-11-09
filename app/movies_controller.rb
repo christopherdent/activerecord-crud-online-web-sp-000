@@ -26,7 +26,8 @@ end
 
 def can_be_created_in_a_block(arguments:)
   	Movie.create do |m|
-     Movie.new("Home Alone")
+     m.title = "The Sting"
+    m.release_date = 1973
   end	  
 end	
 
